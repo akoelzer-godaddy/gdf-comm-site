@@ -2,6 +2,7 @@
   "name": "gdf-comm-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akoelzer-godaddy.github.io/gdf-comm-site",
   "dependencies": {
     "@godaddy/browserslist-config": "^3.1.0",
     "@testing-library/dom": "^10.4.1",
@@ -34,7 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "refresh:jira": "node scripts/refresh-jira-snapshot.mjs"
+    "refresh:jira": "node scripts/refresh-jira-snapshot.mjs",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +63,7 @@
     }
   },
   "devDependencies": {
-    "@ux/aichemy": "latest"
+    "@ux/aichemy": "latest",
+    "gh-pages": "^6.3.0"
   }
 }
