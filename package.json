@@ -1,0 +1,66 @@
+{
+  "name": "gdf-comm-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@godaddy/browserslist-config": "^3.1.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@ux/box": "^2500.2.0",
+    "@ux/button": "^2500.2.0",
+    "@ux/card": "^2500.2.0",
+    "@ux/charts": "^2500.2.0",
+    "@ux/checkbox": "^2500.2.0",
+    "@ux/flyout": "^2500.2.0",
+    "@ux/icon": "^2500.2.0",
+    "@ux/menu": "^2500.2.0",
+    "@ux/modal": "^2500.2.0",
+    "@ux/radio": "^2500.2.0",
+    "@ux/select-input": "^2500.2.0",
+    "@ux/tabs": "^2500.2.0",
+    "@ux/tag": "^2500.2.0",
+    "@ux/text": "^2500.2.0",
+    "@ux/text-lockup": "^2500.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "refresh:jira": "node scripts/refresh-jira-snapshot.mjs"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^@ux/(.+)/styles$": "<rootDir>/src/test/emptyStyleMock.js",
+      "^@ux/card$": "<rootDir>/src/test/cardMock.js"
+    }
+  },
+  "devDependencies": {
+    "@ux/aichemy": "latest"
+  }
+}
