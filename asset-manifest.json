@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gdf-comm-site/static/css/main.42c647af.css",
+    "main.js": "/gdf-comm-site/static/js/main.1cc66769.js",
+    "static/js/453.42be6b1b.chunk.js": "/gdf-comm-site/static/js/453.42be6b1b.chunk.js",
+    "static/media/GD_Sherpa_Variable.woff2": "/gdf-comm-site/static/media/GD_Sherpa_Variable.faf7d43aef944f2bdbd0.woff2",
+    "index.html": "/gdf-comm-site/index.html",
+    "main.42c647af.css.map": "/gdf-comm-site/static/css/main.42c647af.css.map",
+    "main.1cc66769.js.map": "/gdf-comm-site/static/js/main.1cc66769.js.map",
+    "453.42be6b1b.chunk.js.map": "/gdf-comm-site/static/js/453.42be6b1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42c647af.css",
+    "static/js/main.1cc66769.js"
+  ]
+}
