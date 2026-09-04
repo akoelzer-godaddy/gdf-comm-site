@@ -17,6 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.cursor/
 
 npm-debug.log*
 yarn-debug.log*
@@ -27,6 +28,7 @@ yarn-error.log*
 !/.agents/skills/
 !/.agents/skills/ux-guardrails/
 !/.agents/skills/ux-guardrails/**
+
 skills-lock.json
 
 # Jira snapshot build intermediates
